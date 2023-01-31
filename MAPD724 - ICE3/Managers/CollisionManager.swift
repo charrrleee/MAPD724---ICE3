@@ -39,9 +39,15 @@ class CollisionManager
                 switch(object2.name)
                 {
                 case "island":
+                    ScoreManager.Score += 100
+                    gameViewController?.updateScoreLabel()
+                    scene.run(SKAction.playSoundFileNamed("yay", waitForCompletion: false))
                     print("Collided with Island")
                     break
                 case "cloud":
+                    ScoreManager.Lives -= 1
+                    gameViewController?.updateLivesLabel()
+                    scene.run(SKAction.playSoundFileNamed("thunder", waitForCompletion: false))
                     print("Collided with Cloud")
                     break
                 default:

@@ -60,13 +60,6 @@
 		B185826C298893A000B67942 /* explosion6.png in Resources */ = {isa = PBXBuildFile; fileRef = B185822B298893A000B67942 /* explosion6.png */; };
 		B185826D298893A000B67942 /* explosion4.png in Resources */ = {isa = PBXBuildFile; fileRef = B185822C298893A000B67942 /* explosion4.png */; };
 		B185826E298893A000B67942 /* explosion5.png in Resources */ = {isa = PBXBuildFile; fileRef = B185822D298893A000B67942 /* explosion5.png */; };
-		B185826F298893A000B67942 /* life.wav in Resources */ = {isa = PBXBuildFile; fileRef = B185822F298893A000B67942 /* life.wav */; };
-		B1858270298893A000B67942 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1858230298893A000B67942 /* explosion.mp3 */; };
-		B1858271298893A000B67942 /* thunder.ogg in Resources */ = {isa = PBXBuildFile; fileRef = B1858231298893A000B67942 /* thunder.ogg */; };
-		B1858272298893A000B67942 /* yay.ogg in Resources */ = {isa = PBXBuildFile; fileRef = B1858232298893A000B67942 /* yay.ogg */; };
-		B1858273298893A000B67942 /* engine.ogg in Resources */ = {isa = PBXBuildFile; fileRef = B1858233298893A000B67942 /* engine.ogg */; };
-		B1858274298893A000B67942 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1858234298893A000B67942 /* coin.wav */; };
-		B1858275298893A000B67942 /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1858235298893A000B67942 /* bullet.mp3 */; };
 		B1858276298893A000B67942 /* textureAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = B1858237298893A000B67942 /* textureAtlas.png */; };
 		B1858277298893A000B67942 /* textureAtlas.json in Resources */ = {isa = PBXBuildFile; fileRef = B1858238298893A000B67942 /* textureAtlas.json */; };
 		B1858278298893A000B67942 /* MailPilotDemoProject.tps in Resources */ = {isa = PBXBuildFile; fileRef = B1858239298893A000B67942 /* MailPilotDemoProject.tps */; };
@@ -77,6 +70,17 @@
 		B185827D298893A000B67942 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1858240298893A000B67942 /* GameObject.swift */; };
 		B185827E298893A000B67942 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1858241298893A000B67942 /* Layer.swift */; };
 		B185828129889BCF00B67942 /* CollisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185828029889BCF00B67942 /* CollisionManager.swift */; };
+		B18582832988A37900B67942 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18582822988A37900B67942 /* ScoreManager.swift */; };
+		B18582BB2988AB5D00B67942 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = B18582B12988AB5D00B67942 /* coin.wav */; };
+		B18582BC2988AB5D00B67942 /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18582B22988AB5D00B67942 /* bullet.mp3 */; };
+		B18582BD2988AB5D00B67942 /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18582B32988AB5D00B67942 /* thunder.mp3 */; };
+		B18582BE2988AB5D00B67942 /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18582B42988AB5D00B67942 /* engine.mp3 */; };
+		B18582BF2988AB5D00B67942 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18582B52988AB5D00B67942 /* explosion.mp3 */; };
+		B18582C02988AB5D00B67942 /* engine.ogg in Resources */ = {isa = PBXBuildFile; fileRef = B18582B62988AB5D00B67942 /* engine.ogg */; };
+		B18582C12988AB5D00B67942 /* thunder.ogg in Resources */ = {isa = PBXBuildFile; fileRef = B18582B72988AB5D00B67942 /* thunder.ogg */; };
+		B18582C22988AB5D00B67942 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18582B82988AB5D00B67942 /* yay.mp3 */; };
+		B18582C32988AB5D00B67942 /* life.wav in Resources */ = {isa = PBXBuildFile; fileRef = B18582B92988AB5D00B67942 /* life.wav */; };
+		B18582C42988AB5D00B67942 /* yay.ogg in Resources */ = {isa = PBXBuildFile; fileRef = B18582BA2988AB5D00B67942 /* yay.ogg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,13 +138,6 @@
 		B185822B298893A000B67942 /* explosion6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion6.png; sourceTree = "<group>"; };
 		B185822C298893A000B67942 /* explosion4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion4.png; sourceTree = "<group>"; };
 		B185822D298893A000B67942 /* explosion5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion5.png; sourceTree = "<group>"; };
-		B185822F298893A000B67942 /* life.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = life.wav; sourceTree = "<group>"; };
-		B1858230298893A000B67942 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
-		B1858231298893A000B67942 /* thunder.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = thunder.ogg; sourceTree = "<group>"; };
-		B1858232298893A000B67942 /* yay.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = yay.ogg; sourceTree = "<group>"; };
-		B1858233298893A000B67942 /* engine.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = engine.ogg; sourceTree = "<group>"; };
-		B1858234298893A000B67942 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
-		B1858235298893A000B67942 /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bullet.mp3; sourceTree = "<group>"; };
 		B1858237298893A000B67942 /* textureAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textureAtlas.png; sourceTree = "<group>"; };
 		B1858238298893A000B67942 /* textureAtlas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = textureAtlas.json; sourceTree = "<group>"; };
 		B1858239298893A000B67942 /* MailPilotDemoProject.tps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MailPilotDemoProject.tps; sourceTree = "<group>"; };
@@ -151,6 +148,17 @@
 		B1858240298893A000B67942 /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
 		B1858241298893A000B67942 /* Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
 		B185828029889BCF00B67942 /* CollisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionManager.swift; sourceTree = "<group>"; };
+		B18582822988A37900B67942 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
+		B18582B12988AB5D00B67942 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = coin.wav; path = "MAPD724 - ICE3/Assets/audio/coin.wav"; sourceTree = SOURCE_ROOT; };
+		B18582B22988AB5D00B67942 /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bullet.mp3; path = "MAPD724 - ICE3/Assets/audio/bullet.mp3"; sourceTree = SOURCE_ROOT; };
+		B18582B32988AB5D00B67942 /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
+		B18582B42988AB5D00B67942 /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
+		B18582B52988AB5D00B67942 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = explosion.mp3; path = "MAPD724 - ICE3/Assets/audio/explosion.mp3"; sourceTree = SOURCE_ROOT; };
+		B18582B62988AB5D00B67942 /* engine.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = engine.ogg; path = "MAPD724 - ICE3/Assets/audio/engine.ogg"; sourceTree = SOURCE_ROOT; };
+		B18582B72988AB5D00B67942 /* thunder.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = thunder.ogg; path = "MAPD724 - ICE3/Assets/audio/thunder.ogg"; sourceTree = SOURCE_ROOT; };
+		B18582B82988AB5D00B67942 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
+		B18582B92988AB5D00B67942 /* life.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = life.wav; path = "MAPD724 - ICE3/Assets/audio/life.wav"; sourceTree = SOURCE_ROOT; };
+		B18582BA2988AB5D00B67942 /* yay.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = yay.ogg; path = "MAPD724 - ICE3/Assets/audio/yay.ogg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,13 +282,16 @@
 		B185822E298893A000B67942 /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				B185822F298893A000B67942 /* life.wav */,
-				B1858230298893A000B67942 /* explosion.mp3 */,
-				B1858231298893A000B67942 /* thunder.ogg */,
-				B1858232298893A000B67942 /* yay.ogg */,
-				B1858233298893A000B67942 /* engine.ogg */,
-				B1858234298893A000B67942 /* coin.wav */,
-				B1858235298893A000B67942 /* bullet.mp3 */,
+				B18582B22988AB5D00B67942 /* bullet.mp3 */,
+				B18582B12988AB5D00B67942 /* coin.wav */,
+				B18582B42988AB5D00B67942 /* engine.mp3 */,
+				B18582B62988AB5D00B67942 /* engine.ogg */,
+				B18582B52988AB5D00B67942 /* explosion.mp3 */,
+				B18582B92988AB5D00B67942 /* life.wav */,
+				B18582B32988AB5D00B67942 /* thunder.mp3 */,
+				B18582B72988AB5D00B67942 /* thunder.ogg */,
+				B18582B82988AB5D00B67942 /* yay.mp3 */,
+				B18582BA2988AB5D00B67942 /* yay.ogg */,
 			);
 			path = audio;
 			sourceTree = "<group>";
@@ -320,6 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				B185828029889BCF00B67942 /* CollisionManager.swift */,
+				B18582822988A37900B67942 /* ScoreManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -394,26 +406,31 @@
 				B1858279298893A000B67942 /* dock51.woff in Resources */,
 				B1858261298893A000B67942 /* smallexplosion1.png in Resources */,
 				B1858249298893A000B67942 /* plane1.png in Resources */,
-				B185826F298893A000B67942 /* life.wav in Resources */,
-				B1858270298893A000B67942 /* explosion.mp3 in Resources */,
-				B1858271298893A000B67942 /* thunder.ogg in Resources */,
+				B18582C22988AB5D00B67942 /* yay.mp3 in Resources */,
 				B185825A298893A000B67942 /* coin06.png in Resources */,
 				B185824D298893A000B67942 /* planeflash2.png in Resources */,
 				B185826C298893A000B67942 /* explosion6.png in Resources */,
 				B1858269298893A000B67942 /* explosion3.png in Resources */,
 				B185826D298893A000B67942 /* explosion4.png in Resources */,
 				B1858260298893A000B67942 /* coin01.png in Resources */,
+				B18582C42988AB5D00B67942 /* yay.ogg in Resources */,
 				B185824A298893A000B67942 /* backButton.png in Resources */,
+				B18582C32988AB5D00B67942 /* life.wav in Resources */,
 				B1858259298893A000B67942 /* smallexplosion6.png in Resources */,
 				B1858257298893A000B67942 /* coin05.png in Resources */,
 				B185827B298893A000B67942 /* Dock51.ttf in Resources */,
+				B18582C12988AB5D00B67942 /* thunder.ogg in Resources */,
 				B1858246298893A000B67942 /* bullet.png in Resources */,
+				B18582BB2988AB5D00B67942 /* coin.wav in Resources */,
 				B1858267298893A000B67942 /* enemy2.png in Resources */,
-				B1858272298893A000B67942 /* yay.ogg in Resources */,
 				B185825D298893A000B67942 /* smallexplosion2.png in Resources */,
 				B185824E298893A000B67942 /* clickMeButton.png in Resources */,
+				B18582BF2988AB5D00B67942 /* explosion.mp3 in Resources */,
 				B185827A298893A000B67942 /* dock51.woff2 in Resources */,
+				B18582C02988AB5D00B67942 /* engine.ogg in Resources */,
+				B18582BC2988AB5D00B67942 /* bullet.mp3 in Resources */,
 				B1858159298890E700B67942 /* GameScene.sks in Resources */,
+				B18582BE2988AB5D00B67942 /* engine.mp3 in Resources */,
 				B1858266298893A000B67942 /* enemy3.png in Resources */,
 				B1858277298893A000B67942 /* textureAtlas.json in Resources */,
 				B1858164298890E900B67942 /* Assets.xcassets in Resources */,
@@ -429,16 +446,14 @@
 				B185824F298893A000B67942 /* planeflash1.png in Resources */,
 				B1858255298893A000B67942 /* smallexplosion4.png in Resources */,
 				B1858247298893A000B67942 /* plane3.png in Resources */,
-				B1858275298893A000B67942 /* bullet.mp3 in Resources */,
 				B1858253298893A000B67942 /* coin10.png in Resources */,
-				B1858273298893A000B67942 /* engine.ogg in Resources */,
 				B1858252298893A000B67942 /* restartButton.png in Resources */,
 				B185824B298893A000B67942 /* plane.png in Resources */,
 				B185815B298890E700B67942 /* Actions.sks in Resources */,
 				B1858262298893A000B67942 /* nextButton.png in Resources */,
 				B1858258298893A000B67942 /* coin07.png in Resources */,
+				B18582BD2988AB5D00B67942 /* thunder.mp3 in Resources */,
 				B1858278298893A000B67942 /* MailPilotDemoProject.tps in Resources */,
-				B1858274298893A000B67942 /* coin.wav in Resources */,
 				B1858250298893A000B67942 /* coin08.png in Resources */,
 				B1858248298893A000B67942 /* plane2.png in Resources */,
 			);
@@ -451,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18582832988A37900B67942 /* ScoreManager.swift in Sources */,
 				B1858243298893A000B67942 /* Cloud.swift in Sources */,
 				B185827C298893A000B67942 /* GameProtocol.swift in Sources */,
 				B185827D298893A000B67942 /* GameObject.swift in Sources */,

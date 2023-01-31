@@ -44,6 +44,28 @@ class GameScene: SKScene
             clouds.append(cloud)
             addChild(cloud)
         }
+        
+        // Engine Sound
+        let enginSound = SKAudioNode(fileNamed: "engine.mp3")
+        addChild(enginSound)
+        enginSound.autoplayLooped = true
+        
+        // preload / preward impulse sounds
+        do
+        {
+            let sounds: [String] = ["thunder", "yay"]
+            for sound in sounds
+            {
+                let path: String = Bundle.main.path(forResource: sound, ofType: "mp3")!
+                let url: URL = URL(fileURLWithPath: path)
+                let avPlayer: AVAudioPlayer = try AVAudioPlayer(contentsOf: url)
+                avPlayer.prepareToPlay()
+            }
+        }
+        catch
+        {
+            
+        }
     }
     
     func touchDown(atPoint pos : CGPoint)
